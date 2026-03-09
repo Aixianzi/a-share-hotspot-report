@@ -4,75 +4,35 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>2026-03-09 投资复盘（重做版）</title>
-  <meta name="description" content="按 03-06 结构重做的 2026-03-09 投资复盘：模块化、分组化、网页友好。">
+  <meta name="description" content="按 03-06 结构与基准标的池重做的 2026-03-09 投资复盘。">
   <style>
     :root{--bg:#f6f8fc;--card:#fff;--line:#e5e7eb;--text:#0f172a;--muted:#64748b;--up:#16a34a;--down:#dc2626;--strong:#1d4ed8;--warn:#d97706;--shadow:0 18px 48px rgba(15,23,42,.08)}
-    *{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#f8fafc,#eef2ff);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif}a{text-decoration:none;color:inherit}.wrap{max-width:1120px;margin:0 auto;padding:26px 16px 40px}.hero{background:linear-gradient(135deg,#0f172a,#1d4ed8 65%,#60a5fa);color:#fff;border-radius:28px;padding:28px;box-shadow:var(--shadow)}.eyebrow{display:inline-flex;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.12);font-size:12px;font-weight:800}.title{margin:14px 0 10px;font-size:38px;line-height:1.14;font-weight:900}.subtitle{color:rgba(255,255,255,.9);line-height:1.8;max-width:900px}.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 16px;border-radius:14px;font-weight:800}.btn.primary{background:#fff;color:#0f172a}.btn.secondary{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18)}
-    .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:18px}.stat,.panel{background:var(--card);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow)}.stat{padding:18px}.label{font-size:12px;font-weight:700;color:var(--muted)}.value{margin-top:8px;font-size:30px;font-weight:900}.value.up{color:var(--up)}.value.down{color:var(--down)}.sub{margin-top:8px;color:var(--muted);font-size:13px;line-height:1.7}.panel{padding:22px;margin-top:18px}.panel h2{margin:0 0 10px;font-size:24px}.callout{padding:14px 16px;border-left:4px solid var(--strong);background:#eff6ff;border-radius:14px;line-height:1.8;margin-top:14px}.warn{border-left-color:var(--warn);background:#fff7ed}.group{margin-top:16px;padding:16px;border:1px solid var(--line);border-radius:18px;background:#fff}.group h3{margin:0 0 8px;font-size:18px}.group ul{margin:0;padding-left:18px;line-height:1.9;color:#334155}.foot{margin-top:18px;color:var(--muted);font-size:12px;line-height:1.8;text-align:center}@media (max-width:900px){.grid{grid-template-columns:1fr}.wrap{padding:14px 12px 30px}.hero{padding:20px;border-radius:22px}.title{font-size:30px}.panel{padding:16px}.btn{width:100%}}
+    *{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#f8fafc,#eef2ff);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif}a{text-decoration:none;color:inherit}.wrap{max-width:1120px;margin:0 auto;padding:26px 16px 40px}.hero{background:linear-gradient(135deg,#0f172a,#1d4ed8 65%,#60a5fa);color:#fff;border-radius:28px;padding:28px;box-shadow:var(--shadow)}.eyebrow{display:inline-flex;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.12);font-size:12px;font-weight:800}.title{margin:14px 0 10px;font-size:38px;line-height:1.14;font-weight:900}.subtitle{color:rgba(255,255,255,.9);line-height:1.8;max-width:920px}.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 16px;border-radius:14px;font-weight:800}.btn.primary{background:#fff;color:#0f172a}.btn.secondary{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18)}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:18px}.stat,.panel{background:var(--card);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow)}.stat{padding:18px}.label{font-size:12px;font-weight:700;color:var(--muted)}.value{margin-top:8px;font-size:30px;font-weight:900}.value.down{color:var(--down)}.sub{margin-top:8px;color:var(--muted);font-size:13px;line-height:1.7}.panel{padding:22px;margin-top:18px}.panel h2{margin:0 0 10px;font-size:24px}.group{margin-top:16px;padding:16px;border:1px solid var(--line);border-radius:18px;background:#fff}.group h3{margin:0 0 8px;font-size:18px}.group ul{margin:0;padding-left:18px;line-height:1.9;color:#334155}.foot{margin-top:18px;color:var(--muted);font-size:12px;line-height:1.8;text-align:center}@media (max-width:900px){.grid{grid-template-columns:1fr}.wrap{padding:14px 12px 30px}.hero{padding:20px;border-radius:22px}.title{font-size:30px}.panel{padding:16px}.btn{width:100%}}
   </style>
 </head>
 <body>
   <div class="wrap">
     <section class="hero">
-      <div class="eyebrow">投资复盘 · 按 03-06 结构重做</div>
+      <div class="eyebrow">投资复盘 · 03-06 基准结构 + 基准池</div>
       <div class="title">2026-03-09 投资复盘（重做版）</div>
-      <div class="subtitle">这次不再沿用卡片化持仓说明，而是严格回到 03-06 的结构：模块标题 + 板块分组 + 重点标的分组 + 每个标的一条简洁判断。这样更稳定，也更适合日更复盘。</div>
+      <div class="subtitle">这次不仅对齐了 03-06 的模块骨架，也对齐了模块3的基准标的池：默认沿用 03-06 那组重点标的，不再擅自替换为当天临时挑选票池。</div>
       <div class="btns">
         <a class="btn primary" href="../index.html">返回热点首页</a>
         <a class="btn secondary" href="https://feishu.cn/docx/LoE6dhDRzoGbtgxe9pGcYToPnNb" target="_blank" rel="noopener noreferrer">打开飞书原文</a>
       </div>
     </section>
-
     <div class="grid">
       <div class="stat"><div class="label">上证指数</div><div class="value down">4096.60</div><div class="sub">-0.67%</div></div>
       <div class="stat"><div class="label">深证成指</div><div class="value down">14067.50</div><div class="sub">-0.74%</div></div>
       <div class="stat"><div class="label">创业板指</div><div class="value down">3208.58</div><div class="sub">-0.64%</div></div>
       <div class="stat"><div class="label">两市成交额</div><div class="value">2.65 万亿</div><div class="sub">较前一日明显放量</div></div>
     </div>
-
-    <section class="panel">
-      <h2>1）模块1 市场总览</h2>
-      <div class="group"><h3>指数表现</h3><ul><li>上证指数：4096.60，-0.67%</li><li>深证成指：14067.50，-0.74%</li><li>创业板指：3208.58，-0.64%</li></ul></div>
-      <div class="group"><h3>成交额</h3><ul><li>沪深两市成交额约 <strong>2.65 万亿元</strong>，较前一交易日约 <strong>2.20 万亿元</strong> 明显放量。</li></ul></div>
-      <div class="group"><h3>涨跌家数</h3><ul><li>全市场约 <strong>1423 家上涨</strong>、<strong>3964 家下跌</strong>，为明显普跌格局。</li></ul></div>
-      <div class="group"><h3>盘面节奏</h3><ul><li>今天是典型的“放量回落、强弱分化”。指数与广度都偏弱，但强势资金没有离场，而是集中流向逆变器、储能、电网设备、东数西算等更高确定性方向。</li></ul></div>
-      <div class="group"><h3>风险偏好判断</h3><ul><li>风险偏好处于 <strong>中低位</strong>，但流动性并不差；更像是存量资金在高低切换，而不是市场彻底失去承接。</li></ul></div>
-    </section>
-
-    <section class="panel">
-      <h2>2）模块2 板块跟踪（日维度 + 周趋势）</h2>
-      <div class="group"><h3>逆变器 / 储能 / 电网设备</h3><ul><li>日维度：逆变器 <strong>+7.97%</strong>、储能 <strong>+6.26%</strong>、电网自动化设备 <strong>+3.39%</strong>，是今天最强的政策+景气共振方向。</li><li>周趋势：本周首日即放量领涨，若后两日仍有承接，大概率会继续充当周内主线。</li></ul></div>
-      <div class="group"><h3>AI 算力 / 东数西算 / 云计算</h3><ul><li>日维度：东数西算 <strong>+3.32%</strong>、云计算 <strong>+2.52%</strong>、算力概念 <strong>+1.57%</strong>，资金偏向租赁/云侧，而不是通信硬件最前排。</li><li>周趋势：延续上周热度，但更偏结构性强势，是否能重回全面主线还要看后续扩散力度。</li></ul></div>
-      <div class="group"><h3>光伏链（组件 / 辅材 / 修复线）</h3><ul><li>日维度：光伏发电 <strong>+2.65%</strong>、光伏电池组件 <strong>+1.14%</strong>、光伏辅材 <strong>+0.23%</strong>，属于温和修复，但强度明显不如逆变器与储能。</li><li>周趋势：本周起点偏修复，若成交继续放大，才有机会从局部修复走向全链强化。</li></ul></div>
-      <div class="group"><h3>半导体材料 / 光通信链</h3><ul><li>日维度：半导体材料 <strong>-2.73%</strong>、CPO 概念 <strong>-2.53%</strong>、光通信模块 <strong>-2.52%</strong>，是今天科技方向中最弱的一侧。</li><li>周趋势：若后两天仍没有资金回流，这条线大概率仍处于被动调整阶段。</li></ul></div>
-      <div class="group"><h3>机器人 / 白酒防御线</h3><ul><li>日维度：人形机器人 <strong>-1.45%</strong>、白酒 <strong>-0.74%</strong>。机器人继续承压，白酒相对稳定，但都不是市场主攻方向。</li><li>周趋势：当前更适合作为对照线而非主线，短期不宜赋予过高预期。</li></ul></div>
-    </section>
-
-    <section class="panel">
-      <h2>3）模块3 重点标的跟踪（分组版）</h2>
-      <div class="group"><h3>稳健 / 防御组</h3><ul><li>贵州茅台：1397.00，-0.36%；防御属性仍在，但进攻弹性一般，更适合作为净值稳定器。</li></ul></div>
-      <div class="group"><h3>光伏修复组</h3><ul><li>福斯特：17.42，+1.81%；显著跑赢光伏辅材，属于今天修复最顺的一类，可继续持有观察。</li><li>爱旭股份：15.29，+1.26%；BC 弹性还在，强于一般组件线，是组合里相对舒服的一只。</li></ul></div>
-      <div class="group"><h3>科技材料承压组</h3><ul><li>容大感光：37.30，-1.35%；相对半导体材料板块更抗跌，但板块趋势尚未扭转。</li><li>强力新材：13.86，-2.81%；与弱势板块同步承压，若后续继续跑输，应优先考虑降仓。</li></ul></div>
-      <div class="group"><h3>AI / IDC 进攻组</h3><ul><li>首都在线：37.61，+14.25%；明显跑赢东数西算/数据中心，是今天组合内最强进攻弹性标的。</li></ul></div>
-      <div class="group"><h3>机器人观察组</h3><ul><li>科达利：152.00，-3.12%；明显跑输机器人板块，短线不强，暂不宜加仓。</li></ul></div>
-      <div class="group"><h3>异常待校验组</h3><ul><li>模塑科技（名称/代码待校验）：持仓表记录为“模塑科技 / 000631 / 成本 3.77”，但 000631 实际对应顺发恒能；若按模塑科技真实代码 000700 抓取，现价与跌幅完全不同。该标的今天不做正式交易结论，建议先校验真实持仓代码。</li></ul></div>
-    </section>
-
-    <section class="panel">
-      <h2>4）模块4 决策输出</h2>
-      <div class="group"><h3>3 行结论</h3><ul><li>今天是标准的 <strong>放量普跌日</strong>：广度较差，但并非没钱，而是资金集中流向更确定的方向。</li><li>当前最强主线是 <strong>逆变器 / 储能 / 电网设备</strong>，科技线内部则表现为 <strong>算力租赁强、半导体与光通信弱</strong>。</li><li>组合里相对强势的是 <strong>首都在线、福斯特、爱旭股份</strong>；相对偏弱的是 <strong>强力新材、科达利</strong>，而“模塑科技”信息必须优先校验。</li></ul></div>
-      <div class="group"><h3>仓位建议</h3><ul><li>建议维持 <strong>6～7 成中性偏谨慎仓位</strong>。</li><li>原则：不在放量普跌日追高加仓，只做内部结构调整；保留强势票，压缩持续跑输板块的弱势弹性仓。</li></ul></div>
-      <div class="group"><h3>次日观察（<=3）</h3><ul><li>逆变器 / 储能能否在今天放量后继续走强，而不是一日脉冲。</li><li>首都在线所在的算力链能否从租赁/题材扩散到数据中心 / 云计算。</li><li>半导体材料与机器人是否出现止跌信号；若无，则继续降低弹性仓暴露。</li></ul></div>
-    </section>
-
-    <section class="panel">
-      <h2>5）模块5 归档与校验</h2>
-      <div class="group"><h3>归档结果</h3><ul><li>文档标题：2026-03-09 投资复盘（SOP）</li><li>文档链接：https://feishu.cn/docx/LoE6dhDRzoGbtgxe9pGcYToPnNb</li></ul></div>
-      <div class="group"><h3>写后校验</h3><ul><li>已按 03-06 的结构重写正文。</li><li>已按模块 1～5 输出完整复盘。</li><li>已校验模块3标题为 <strong>重点标的跟踪（分组版）</strong>。</li></ul></div>
-      <div class="group"><h3>失败排查</h3><ul><li>若文档打开为空白：优先检查飞书侧是否完成刷新，或稍后重新打开一次。</li><li>若后续出现内容缺块：优先排查 markdown 特性限制，改用标题 + 项目符号重写。</li><li>若文件夹内不可见：优先排查 drive/docx 权限与归档 token 是否变更。</li></ul></div>
-    </section>
-
-    <div class="foot">本页已按 2026-03-06 的结构重做 ｜ 飞书原文：LoE6dhDRzoGbtgxe9pGcYToPnNb</div>
+    <section class="panel"><h2>1）模块1 市场总览</h2><div class="group"><h3>指数表现</h3><ul><li>上证指数：4096.60，-0.67%</li><li>深证成指：14067.50，-0.74%</li><li>创业板指：3208.58，-0.64%</li></ul></div><div class="group"><h3>成交额</h3><ul><li>沪深两市成交额约 <strong>2.65 万亿元</strong>，较前一交易日约 <strong>2.20 万亿元</strong> 明显放量。</li></ul></div><div class="group"><h3>涨跌家数</h3><ul><li>全市场约 <strong>1423 家上涨</strong>、<strong>3964 家下跌</strong>，为明显普跌格局。</li></ul></div><div class="group"><h3>盘面节奏</h3><ul><li>今天是典型的“放量回落、强弱分化”。指数与广度都偏弱，但强势资金没有离场，而是集中流向逆变器、储能、电网设备、东数西算等更高确定性方向。</li></ul></div><div class="group"><h3>风险偏好判断</h3><ul><li>风险偏好处于 <strong>中低位</strong>，但流动性并不差；更像是存量资金在高低切换，而不是市场彻底失去承接。</li></ul></div></section>
+    <section class="panel"><h2>2）模块2 板块跟踪（日维度 + 周趋势）</h2><div class="group"><h3>逆变器 / 储能 / 电网设备</h3><ul><li>日维度：逆变器 <strong>+7.97%</strong>、储能 <strong>+6.26%</strong>、电网自动化设备 <strong>+3.39%</strong>，是今天最强的政策+景气共振方向。</li><li>周趋势：本周首日即放量领涨，若后两日仍有承接，大概率会继续充当周内主线。</li></ul></div><div class="group"><h3>AI 算力 / 东数西算 / 云计算</h3><ul><li>日维度：东数西算 <strong>+3.32%</strong>、云计算 <strong>+2.52%</strong>、算力概念 <strong>+1.57%</strong>，说明资金仍在科技线，但偏向租赁/云侧，而不是回到通信硬件最前排。</li><li>周趋势：延续上周热度，但更偏结构性强势，是否能重回全面主线还要看后续扩散力度。</li></ul></div><div class="group"><h3>光伏链（组件 / 辅材 / 修复线）</h3><ul><li>日维度：光伏发电 <strong>+2.65%</strong>、光伏电池组件 <strong>+1.14%</strong>、光伏辅材 <strong>+0.23%</strong>，属于温和修复，但强度明显不如逆变器与储能。</li><li>周趋势：本周起点偏修复，若成交继续放大，才有机会从局部修复走向全链强化。</li></ul></div><div class="group"><h3>半导体材料 / 光通信链</h3><ul><li>日维度：半导体材料 <strong>-2.73%</strong>、CPO 概念 <strong>-2.53%</strong>、光通信模块 <strong>-2.52%</strong>，是今天科技方向中最弱的一侧。</li><li>周趋势：若后两天仍没有资金回流，这条线大概率仍处于被动调整阶段。</li></ul></div><div class="group"><h3>机器人 / 白酒防御线</h3><ul><li>日维度：人形机器人 <strong>-1.45%</strong>、白酒 <strong>-0.74%</strong>。机器人继续承压，白酒相对稳定，但都不是市场主攻方向。</li><li>周趋势：当前更适合作为对照线而非主线，短期不宜赋予过高预期。</li></ul></div></section>
+    <section class="panel"><h2>3）模块3 重点标的跟踪（分组版）</h2><div class="group"><h3>稳健 / 防御组</h3><ul><li>贵州茅台：1397.00，-0.36%；防御属性仍在，但在今天放量普跌背景下仅承担稳定器角色。</li><li>招商蛇口：9.42，-2.89%；地产修复承接不足，今天明显弱于防御预期，继续只当低位跟踪票看待。</li><li>新华保险：71.60，-2.45%；非银今天跟随指数回落，平衡器属性在，但缺乏独立进攻性。</li><li>腾讯控股：516.00，-0.58%；港股科技相对 A 股硬件侧更稳，虽回调但仍是科技观察池里辨识度最高的核心资产之一。</li></ul></div><div class="group"><h3>科技硬件 / 半导体组</h3><ul><li>中微公司：323.71，-3.74%；半导体设备继续承压，短线未见回流，仍需等待科技线重新聚焦。</li><li>上海新阳：73.04，-2.38%；材料线继续偏弱，弱于理想修复节奏，暂不宜把它视作反攻主力。</li></ul></div><div class="group"><h3>新能源 / 电力设备组</h3><ul><li>爱旭股份：15.29，+1.26%；仍处光伏修复序列，强于多数组件股，保留跟踪价值。</li><li>亿纬锂能：62.28，+3.28%；今天明显强于锂电链平均表现，说明龙头品种仍有承接。</li><li>科达利：152.00，-3.12%；显著弱于新能源修复节奏，在这一组里属于拖后腿标的。</li><li>许继电气：33.97，+1.01%；虽然涨幅不算极端，但电网主线强、个股位置稳，仍是本周重点观察核心票。</li></ul></div><div class="group"><h3>高端制造 / 军工组</h3><ul><li>三一重工：21.27，-3.45%；工程机械回落明显，短期还看不到内需与出海共振的加强信号。</li><li>洪都航空：41.50，-3.17%；军工弹性今天明显回撤，需观察是否只是跟随指数回调，还是强势结束。</li><li>中船防务：35.00，-3.71%；船舶链同步回吐，今天表现偏弱，需等后续止跌确认。</li></ul></div><div class="group"><h3>医药组</h3><ul><li>昭衍新药：33.18，-0.54%；相对医药线仍算抗跌，但没有走出独立强化。</li><li>心脉医疗：104.31，-2.86%；器械方向继续弱于创新药主线，分化依旧明显。</li></ul></div></section>
+    <section class="panel"><h2>4）模块4 决策输出</h2><div class="group"><h3>3 行结论</h3><ul><li>今天是标准的 <strong>放量普跌日</strong>：广度较差，但并非没钱，而是资金集中流向更确定的方向。</li><li>当前最强主线是 <strong>逆变器 / 储能 / 电网设备</strong>，科技线内部则表现为 <strong>算力租赁强、半导体与光通信弱</strong>。</li><li>按 03-06 基准标的池看，今天相对更强的是 <strong>爱旭股份、亿纬锂能、许继电气</strong>；相对更弱的是 <strong>招商蛇口、中微公司、科达利、军工组三票</strong>。</li></ul></div><div class="group"><h3>仓位建议</h3><ul><li>建议维持 <strong>6～7 成中性偏谨慎仓位</strong>。</li><li>原则：不在放量普跌日追高加仓，只做内部结构调整；保留强承接主线标的，弱势组继续观察、少抄底。</li></ul></div><div class="group"><h3>次日观察（<=3）</h3><ul><li>许继电气及电网设备能否从题材扩散到核心权重继续放量。</li><li>腾讯与中微公司能否带动科技线回流；若科技继续走弱，则本轮仍以“电力设备 + 算力延伸线”为主导。</li><li>洪都航空 / 中船防务能否止跌，验证军工是跟随回调还是趋势转弱。</li></ul></div></section>
+    <section class="panel"><h2>5）模块5 归档与校验</h2><div class="group"><h3>归档结果</h3><ul><li>文档标题：2026-03-09 投资复盘（SOP）</li><li>文档链接：https://feishu.cn/docx/LoE6dhDRzoGbtgxe9pGcYToPnNb</li></ul></div><div class="group"><h3>写后校验</h3><ul><li>已按 03-06 的结构重写正文。</li><li>已按模块 1～5 输出完整复盘。</li><li>已校验模块3标题为 <strong>重点标的跟踪（分组版）</strong>。</li><li>已校验模块3使用 <strong>03-06 基准标的池</strong>，未再擅自替换成临时票池。</li></ul></div><div class="group"><h3>失败排查</h3><ul><li>若文档打开为空白：优先检查飞书侧是否完成刷新，或稍后重新打开一次。</li><li>若后续出现内容缺块：优先排查 markdown 特性限制，改用标题 + 项目符号重写。</li><li>若文件夹内不可见：优先排查 drive/docx 权限与归档 token 是否变更。</li></ul></div></section>
+    <div class="foot">本页已按 03-06 的结构与基准标的池重做 ｜ 飞书原文：LoE6dhDRzoGbtgxe9pGcYToPnNb</div>
   </div>
 </body>
 </html>
