@@ -4,6 +4,6 @@
 - Latest full report: https://aixianzi.github.io/a-share-hotspot-report/latest-report.html
 - Dated snapshot: https://aixianzi.github.io/a-share-hotspot-report/2026-03-07_2026-03-09_热点跟踪.html
 - Current title: 2026-03-07-2026-03-09 热点跟踪
-- Window: 2026-03-07 10:08 -> 2026-03-09 10:08
-- Generated at: 2026-03-09 10:12
+- Window: 2026-03-07 10:15 -> 2026-03-09 10:15
+- Generated at: 2026-03-09 10:17
 - Refresh status: manual: no source refresh

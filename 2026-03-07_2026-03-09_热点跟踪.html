@@ -61,7 +61,7 @@ mark.kw{display:inline-block;padding:0 4px;border-radius:6px;background:rgba(251
 .foot{font-size:12px;color:var(--muted);margin-top:10px;line-height:1.6}
 @media (max-width: 960px){
   .logic,.group-grid,.kpis{grid-template-columns:1fr}
-  .heat-grid{grid-template-columns:repeat(8,1fr);grid-auto-rows:72px}
+  .heat-grid{display:flex;flex-direction:column;gap:10px}
   .hero{display:block}
   .wrap{padding:16px}
   .panel{padding:16px 14px;border-radius:18px}
@@ -69,6 +69,7 @@ mark.kw{display:inline-block;padding:0 4px;border-radius:6px;background:rgba(251
   .sub{font-size:13px;line-height:1.7}
   .quick-nav{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px;-webkit-overflow-scrolling:touch}
   .quick-nav a{flex:0 0 auto}
+  .heat-card{grid-column:auto !important;grid-row:auto !important;min-height:128px;padding:14px 14px 16px}
   .heat-name{font-size:16px}
   .heat-num{font-size:30px}
   .heat-sub{font-size:12px;margin-top:6px}
@@ -82,7 +83,7 @@ mark.kw{display:inline-block;padding:0 4px;border-radius:6px;background:rgba(251
     <div class="hero">
       <div>
         <div class="title">2026-03-07-2026-03-09 热点跟踪</div>
-        <div class="sub">区间：2026-03-07-2026-03-09 ｜ 窗口：2026-03-07 10:08 -> 2026-03-09 10:08 ｜ 样本：89 条短评 ｜ 源归档更新时间：2026-03-09 07:59:15</div>
+        <div class="sub">区间：2026-03-07-2026-03-09 ｜ 窗口：2026-03-07 10:15 -> 2026-03-09 10:15 ｜ 样本：89 条短评 ｜ 源归档更新时间：2026-03-09 07:59:15</div>
         <div class="meta-row">
           <span class="meta-pill warn">源刷新状态：manual: no source refresh</span>
           <span class="meta-pill">最新交易日：2026-03-06</span>
