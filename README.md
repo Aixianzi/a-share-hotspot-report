@@ -1,8 +1,8 @@
 # A-Share Hotspot Report
 
-Public GitHub Pages site for the latest A-share hotspot HTML report.
-
-- `index.html`: latest published version
-- dated HTML files: archived snapshots
-
-This site is generated from the local OpenClaw daily-hotspot workflow.
+- Current title: 2026-03-07-2026-03-09 热点跟踪
+- Window: 2026-03-07 08:40 -> 2026-03-09 08:40
+- Generated at: 2026-03-09 08:45
+- Refresh status: manual: no source refresh
+- Latest page: https://aixianzi.github.io/a-share-hotspot-report/
+- Dated snapshot: https://aixianzi.github.io/a-share-hotspot-report/2026-03-07_2026-03-09_热点跟踪.html
