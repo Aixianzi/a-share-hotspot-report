@@ -2,9 +2,9 @@
 
 - GitHub landing page: https://aixianzi.github.io/a-share-hotspot-report/
 - GitHub latest full report: https://aixianzi.github.io/a-share-hotspot-report/latest-report.html
-- GitHub dated snapshot: https://aixianzi.github.io/a-share-hotspot-report/2026-03-12_2026-03-14_热点跟踪.html
+- GitHub dated snapshot: https://aixianzi.github.io/a-share-hotspot-report/2026-03-13_2026-03-15_热点跟踪.html
 - GitHub repo: https://github.com/Aixianzi/a-share-hotspot-report
-- Current title: 2026-03-12-2026-03-14 热点跟踪
-- Window: 2026-03-12 07:00 -> 2026-03-14 07:00
-- Generated at: 2026-03-14 07:01
-- Refresh status: ok: refreshed 2026-03-12 -> 2026-03-14
+- Current title: 2026-03-13-2026-03-15 热点跟踪
+- Window: 2026-03-13 07:10 -> 2026-03-15 07:10
+- Generated at: 2026-03-15 07:29
+- Refresh status: ok: refreshed 2026-03-13 -> 2026-03-15
